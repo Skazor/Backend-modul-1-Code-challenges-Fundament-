@@ -50,7 +50,8 @@ switch (valg)
 }
 
 
-//Oppgave 3 - Array
+//Oppgave 3 
+// - Array
 
 string[] navnet = { "Hugin", "Munin", "Fenrir" };
 int[] tall = { 1, 2, 3, 4, 5};
@@ -70,4 +71,26 @@ foreach (double p in priser)
 {
     Console.WriteLine(p);
 }
+
+// - List
+
+List<string> handleListe = ["Kylling", "Bacon", "Ost"];
+List<int> tall3 = [1, 2, 3, 4, 5];
+List<double> priser2 = [9.99, 19.99, 29.99];
+
+foreach (string vare in handleListe)
+{
+    Console.WriteLine(vare);
+}
+
+foreach (int t in tall3)
+{
+    Console.WriteLine(t);
+}
+
+foreach (double p in priser2)
+{
+    Console.WriteLine(p);
+}
+
 
