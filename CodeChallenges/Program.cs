@@ -48,3 +48,26 @@ switch (valg)
         Console.WriteLine("Ugyldig valg!");
         break;
 }
+
+
+//Oppgave 3 - Array
+
+string[] navnet = { "Hugin", "Munin", "Fenrir" };
+int[] tall = { 1, 2, 3, 4, 5};
+double[] priser = {9.99, 19.99, 29.99};
+
+foreach (string n in navnet)
+{
+    Console.WriteLine(n);
+}
+
+foreach (int t in tall)
+{
+    Console.WriteLine(t);
+}
+
+foreach (double p in priser)
+{
+    Console.WriteLine(p);
+}
+
