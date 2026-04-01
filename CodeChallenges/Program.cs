@@ -94,3 +94,24 @@ foreach (double p in priser2)
 }
 
 
+// - Dictionary
+
+Dictionary<string, string> hovedsteder = new Dictionary<string, string>();
+hovedsteder.Add("Norge", "Oslo");
+hovedsteder.Add("Island", "Reykjavik");
+hovedsteder.Add("Danmark", "København");
+
+Dictionary<string, int> alder3 = new Dictionary<string, int>();
+alder3.Add("Bob", 42);
+alder3.Add("Alice", 101010);
+alder3.Add("Julius", 56);
+
+foreach (KeyValuePair<string, string > land in hovedsteder)
+{
+    Console.WriteLine($"{land.Key} - {land.Value}");
+}
+
+foreach (KeyValuePair<string, int> person in alder3)
+{
+    Console.WriteLine($"{person.Key} - {person.Value}");
+}
